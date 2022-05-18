@@ -10,3 +10,5 @@ docker run -d -p 80:5500 --name f-app-bloated flask-app-bloated
 ```
 
 This is an example of a container built with files not needed for the app to function.
+
+Add new entries to the .dockerignore file to bring this image to the same size as flask-app-alpine, without deleting any files from the repository.
